@@ -21,7 +21,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: SpinKitPumpingHeart(
+        child: SpinKitDualRing(
           size: 150.0,
           color: Colors.white,
         ),
